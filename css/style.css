@@ -1,0 +1,206 @@
+header {
+  padding: 50px;
+  color: white;
+  font-family: 'Sofia',cursive,Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+  background-image: url(https://st2.depositphotos.com/1542745/5900/i/950/depositphotos_59005253-stock-photo-brown-wood-log-wall-background.jpg);
+  background-size:cover;
+}
+.container {
+  font-size: 16px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+.header-logo {
+  letter-spacing: 5px;
+}
+.header-list{
+  justify-content: flex-end;
+}
+.flex-box {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.header-list a {
+  color: white;
+}
+.header-list li {
+  padding: 0 15px;
+}
+
+/**-------------key-visual--------------**/
+.key-visual {
+  background-color: ;
+  color: white;
+  padding: 40px;
+}
+.flex-box {
+  display: flex;
+}
+.tw-content {
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-right: 20px;
+  line-height: 2.5;
+}
+
+/**----------------service-----------------**/
+.service {
+  padding: 0 50px 50px 100px;
+  background-color: ;
+  color: white;
+}
+.heading {
+  text-align: center;
+  font-size: 50px;
+  padding: 100px 0 70px 0;
+  font-family: 'Sofia',cursive,Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+
+}
+.service-content {
+  justify-content: space-between;
+}
+/**
+.flex-box {
+  display: flex;
+}
+**/
+.content {
+  text-align: center;
+  width: 33%;
+  padding: 20px;
+}
+.content h3 {
+  font-size: 25px;
+  padding: 20px;
+}
+.content p {
+  line-height: 2;
+  text-align: left;
+}
+.fa, .fas {
+  font-weight: 900;
+}
+
+/**----------------exampleはあと手本に置ける、portfolio参照------------**/
+.example {
+  background-color: ;
+  padding-bottom: 100px;
+  color: white;
+  font-size: 16px;
+}
+/**------------------price------------------**/
+.price {
+  background-color: 1;
+  padding-bottom: 100px;
+  color: white;
+  font-size: 16px;
+}
+table {
+  margin: 0 auto;
+  border: 1px solid white;
+  border-collapse: collapse;/**ボーダー線が重なって表示**/
+  width: 80%;
+  /**box-shadow: 0 0px 20px rgba(54,54,54,0.8)**/
+}
+tr {
+  border: 1px solid white;
+}
+th {
+  border: 1px solid white;
+}
+.price p {
+  text-align: center;
+  padding: 40px 0 0 0 ;
+  display: block;
+}
+/**------------------about-----------------------**/
+.about {
+  color: white;
+  font-size: 16px;
+}
+.daihyou-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+.daihyou-img {
+  border-radius: 100px;
+  margin-left: 100px;
+}
+.syokunin {
+  margin-top: 30px;
+}
+.syokunin-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+.syokunin-img {
+  border-radius: 100px;
+  margin-left: 100px;
+}
+/**------------------contact---------------------**/
+.contact {
+  background-color: ;
+  padding-bottom: 100px;
+  color: white;
+  font-size: 16px;
+}
+form {
+  width: 520px;
+  margin: 0 auto;
+
+}
+form div + div {
+  margin-top: 1em;
+}
+input, textarea {
+  /* すべてのテキストフィールドのフォント設定を一致させる
+     デフォルトで、textarea は等幅フォントが設定されている */
+  font: 1em sans-serif;
+  width: 500px;
+  box-sizing: border-box;
+  /* テキストフィールドのボーダーの外見を同一にする */
+  border: 1px solid #999;
+}
+input:focus, textarea:focus {
+  /* アクティブな要素を少し強調する */
+  border-color: #000;
+}
+textarea {
+  /* 複数行のテキストフィールドをラベルにきちんと揃える */
+  vertical-align: top;
+}
+.button {
+  display: inline-block;
+  text-align: center;
+}
+button {
+  width: 500px;
+  height: 80px
+}
+/**-------------------footer-------------**/
+footer {
+  padding: 30px 0;
+  background-color: gray;
+  color: white;
+  font-size: 16px;
+  font-family: 'Sofia',cursive,Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+.footer-list li {
+  padding: 10px 15px;
+}
+.footer-list li a {          /*** aのリンクにはわざわざ指定しないと文字色は反映されなかった*/
+  color: white;
+
+}
+footer span {
+  text-align: right;
+  display: block;
+}
+body {
+  background-image: url(http://s3-ap-northeast-1.amazonaws.com/fnavi-aderans/blog/wp-content/uploads/2019/04/23135750/sea3_w16.jpg);
+  background-size:cover;
+}
